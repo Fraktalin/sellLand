@@ -19,7 +19,7 @@ function showMessage() {
   info.classList.add("body-hide");
   main.classList.add("body-hide");
   video.classList.add("body-hide");
-  video.src = "../video/road.mp4";
+  video.src = "./video/road.mp4";
   console.log(video.src);
 }
 function toggleContact() {
@@ -29,6 +29,6 @@ function toggleContact() {
   contactMessage.classList.add("body-hide");
 }
 function animation() {
-  gif.children[1].src = "../video/lang.gif";
+  gif.children[1].src = "./video/lang.gif";
   main.classList.add("body-hide");
 }
