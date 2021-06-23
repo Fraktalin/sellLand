@@ -140,7 +140,7 @@ button {
 .video {
   position: fixed;
   left: 0;
-  bottom: -4%;
+  bottom: -10%;
   min-width: 100%;
   min-height: 100vh;
   z-index: -2;
