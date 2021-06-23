@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  scroll-behavior: smooth;
   position: relative;
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -103,7 +104,7 @@ button {
   align-items: center;
 }
 .select-lan {
-  color: white;
+  color: #90fcf9;
   padding-right: 8px;
 }
 
@@ -165,7 +166,7 @@ button {
 }
 .contacts-button {
   position: fixed;
-  right: 5%;
+  right: 13.5%;
   bottom: 10%;
   border: none;
   background: #90fcf9;
