@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  transition: 0.3s;
   scroll-behavior: smooth;
   position: relative;
   font-family: "Roboto", sans-serif;
@@ -118,6 +119,8 @@ button {
 }
 
 .body-hide {
+  transition: 1s;
+  scroll-behavior: smooth;
   animation: hide 2s;
   z-index: -2;
 }
@@ -223,6 +226,7 @@ button {
   z-index: 3;
 }
 .body-crop {
+  transition: 0.3s;
   overflow-y: hidden;
   height: 100vh;
 }
