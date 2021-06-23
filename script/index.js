@@ -21,7 +21,6 @@ function showMessage() {
   main.classList.add("body-hide");
   video.classList.add("body-hide");
   video.src = "./video/road.mp4";
-  console.log(video.src);
 }
 function toggleContact() {
   contactMessage.classList.toggle("hidden");
