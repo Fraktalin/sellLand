@@ -7,6 +7,7 @@ const contactMessage = document.querySelector(".contact-wrap");
 const darkBody = document.querySelector(".dark-body");
 const gif = document.querySelector(".lan-link");
 const main = document.querySelector("main");
+const body = document.querySelector("body");
 
 moreInfo.addEventListener("click", showMessage);
 contact.addEventListener("click", toggleContact);
@@ -27,6 +28,7 @@ function toggleContact() {
   darkBody.classList.toggle("hidden");
   darkBody.classList.add("body-hide");
   contactMessage.classList.add("body-hide");
+  body.classList.toggle("body-crop");
 }
 function animation() {
   gif.children[1].src = "./video/lang.gif";

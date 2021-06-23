@@ -166,7 +166,7 @@ button {
 .contacts-button {
   position: fixed;
   right: 5%;
-  bottom: 5%;
+  bottom: 10%;
   border: none;
   background: #90fcf9;
   box-shadow: 0px 0px 40px #90fcf9;
@@ -220,6 +220,10 @@ button {
   flex-direction: column;
   padding: 40px;
   z-index: 3;
+}
+.body-crop {
+  overflow-y: hidden;
+  height: 100vh;
 }
 .link-wrap {
   display: flex;
